@@ -1,0 +1,449 @@
+{
+  "schema": 1,
+  "feature_names": [
+    "buy_ratio",
+    "smart_wallets",
+    "social_velocity",
+    "volume_turnover",
+    "log_holders",
+    "top10_pct",
+    "log_liquidity",
+    "age_minutes",
+    "price_change_5m"
+  ],
+  "mean": [
+    0.5433997023705704,
+    1.12966349670812,
+    0.5031002993797072,
+    0.2979392004058093,
+    2.2222579053728,
+    31.474201993763646,
+    4.608994088551471,
+    37.63972201901975,
+    0.2826326814124452
+  ],
+  "scale": [
+    0.11043506439392263,
+    1.0511835894381525,
+    0.2185830604543731,
+    0.1619944577782832,
+    0.26870232866994614,
+    7.843576107116538,
+    0.2414769701485211,
+    25.525498433836898,
+    4.0520516618025795
+  ],
+  "coef": [
+    0.29661685843912,
+    0.10695208386768658,
+    0.1640511101321705,
+    0.1275059817078272,
+    0.515803313123842,
+    -0.040535839230428444,
+    0.44184988745346193,
+    -0.5568244371512003,
+    -0.07695970671141225
+  ],
+  "intercept": -0.5431358324209067,
+  "source": "sim",
+  "trained_at": "2026-11-04T06:07:31.164839+00:00",
+  "n_train": 10936,
+  "label": {
+    "up_pct": 40,
+    "down_pct": 20,
+    "horizon_ticks": 90
+  },
+  "metrics": {
+    "oos_auc": 0.7938415893326518,
+    "brier": 0.18227474245684866,
+    "baseline_brier": 0.2478986361134119,
+    "top20_lift": 1.8385727460563819,
+    "gbm_auc": 0.7784258990705549,
+    "C": 1.0,
+    "calibration": [
+      {
+        "bucket": 1,
+        "n": 657,
+        "mean_pred": 0.1334543998509363,
+        "actual_rate": 0.1278538812785388
+      },
+      {
+        "bucket": 2,
+        "n": 656,
+        "mean_pred": 0.25137324117781773,
+        "actual_rate": 0.21798780487804878
+      },
+      {
+        "bucket": 3,
+        "n": 656,
+        "mean_pred": 0.40505897694678183,
+        "actual_rate": 0.4024390243902439
+      },
+      {
+        "bucket": 4,
+        "n": 656,
+        "mean_pred": 0.5949092226340434,
+        "actual_rate": 0.6204268292682927
+      },
+      {
+        "bucket": 5,
+        "n": 657,
+        "mean_pred": 0.7578342523658489,
+        "actual_rate": 0.7960426179604262
+      }
+    ],
+    "forced": false
+  },
+  "samples": [
+    {
+      "features": {
+        "buy_ratio": 0.638768337056827,
+        "smart_wallets": 1.0,
+        "social_velocity": 0.6763136573307238,
+        "volume_turnover": 0.5628924045145943,
+        "log_holders": 2.4871383754771865,
+        "top10_pct": 19.106004574801773,
+        "log_liquidity": 5.059170157079749,
+        "age_minutes": 41.0,
+        "price_change_5m": 0.7895819047459174
+      },
+      "prob": 0.7943821565734273
+    },
+    {
+      "features": {
+        "buy_ratio": 0.6410332706576172,
+        "smart_wallets": 2.0,
+        "social_velocity": 0.5605559550205604,
+        "volume_turnover": 0.33151772867236967,
+        "log_holders": 2.3521825181113627,
+        "top10_pct": 18.9718309098389,
+        "log_liquidity": 5.048035358058093,
+        "age_minutes": 38.0,
+        "price_change_5m": 0.37567820249297945
+      },
+      "prob": 0.7280874427596742
+    },
+    {
+      "features": {
+        "buy_ratio": 0.4639673953038461,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.1869738087461711,
+        "volume_turnover": 0.1073786595547579,
+        "log_holders": 1.7323937598229686,
+        "top10_pct": 25.365597866708413,
+        "log_liquidity": 4.441016372705979,
+        "age_minutes": 3.0,
+        "price_change_5m": 1.6601523638072324
+      },
+      "prob": 0.14863762334527508
+    },
+    {
+      "features": {
+        "buy_ratio": 0.516403136994214,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.20477707825254077,
+        "volume_turnover": 0.223288105787499,
+        "log_holders": 2.2624510897304293,
+        "top10_pct": 21.853472051443532,
+        "log_liquidity": 4.356499691710586,
+        "age_minutes": 52.0,
+        "price_change_5m": 2.935252844727998
+      },
+      "prob": 0.152902621665711
+    },
+    {
+      "features": {
+        "buy_ratio": 0.4635166002013361,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.33961538136503433,
+        "volume_turnover": 0.2988948151004209,
+        "log_holders": 2.1986570869544226,
+        "top10_pct": 21.853472051443532,
+        "log_liquidity": 4.304447320703299,
+        "age_minutes": 42.0,
+        "price_change_5m": -6.180563381435933
+      },
+      "prob": 0.17949423098514705
+    },
+    {
+      "features": {
+        "buy_ratio": 0.6562742141508009,
+        "smart_wallets": 1.0,
+        "social_velocity": 0.7064748776146328,
+        "volume_turnover": 0.4538250281701185,
+        "log_holders": 2.4456042032735974,
+        "top10_pct": 43.40501768491231,
+        "log_liquidity": 4.4324664178628135,
+        "age_minutes": 53.0,
+        "price_change_5m": 8.049526303368548
+      },
+      "prob": 0.39739200547793696
+    },
+    {
+      "features": {
+        "buy_ratio": 0.524534426739463,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.13636976144320923,
+        "volume_turnover": 0.4692469171509168,
+        "log_holders": 2.4913616938342726,
+        "top10_pct": 26.447153293294832,
+        "log_liquidity": 4.604397566587214,
+        "age_minutes": 77.0,
+        "price_change_5m": 4.39386216234352
+      },
+      "prob": 0.22240459488392342
+    },
+    {
+      "features": {
+        "buy_ratio": 0.7331461491550517,
+        "smart_wallets": 2.0,
+        "social_velocity": 0.7167517749285783,
+        "volume_turnover": 0.3497919411771389,
+        "log_holders": 2.303196057420489,
+        "top10_pct": 21.677014254033566,
+        "log_liquidity": 4.967409333098599,
+        "age_minutes": 28.0,
+        "price_change_5m": 4.448565379709479
+      },
+      "prob": 0.7771619694051279
+    },
+    {
+      "features": {
+        "buy_ratio": 0.6535974363309073,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.9241665248488733,
+        "volume_turnover": 0.5073068138269387,
+        "log_holders": 2.481442628502305,
+        "top10_pct": 41.44491246342659,
+        "log_liquidity": 4.604235518305641,
+        "age_minutes": 53.0,
+        "price_change_5m": 10.47285071119919
+      },
+      "prob": 0.506849506923894
+    },
+    {
+      "features": {
+        "buy_ratio": 0.5630413437666323,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.540616958931038,
+        "volume_turnover": 0.08313100753138411,
+        "log_holders": 2.3873898263387296,
+        "top10_pct": 26.84012787672691,
+        "log_liquidity": 4.782500718466593,
+        "age_minutes": 53.0,
+        "price_change_5m": -1.6659476095101766
+      },
+      "prob": 0.40470798871802455
+    },
+    {
+      "features": {
+        "buy_ratio": 0.3803603143887787,
+        "smart_wallets": 1.0,
+        "social_velocity": 0.11378640698976056,
+        "volume_turnover": 0.22364127678654003,
+        "log_holders": 1.8573324964312685,
+        "top10_pct": 40.27771195094101,
+        "log_liquidity": 4.405888063234187,
+        "age_minutes": 19.0,
+        "price_change_5m": 9.514273769140114
+      },
+      "prob": 0.096977138598705
+    },
+    {
+      "features": {
+        "buy_ratio": 0.47144381164341964,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.2291900475211893,
+        "volume_turnover": 0.046400504113098394,
+        "log_holders": 1.8692317197309762,
+        "top10_pct": 44.472026746021584,
+        "log_liquidity": 4.303761416483714,
+        "age_minutes": 3.0,
+        "price_change_5m": 4.1975894693832005
+      },
+      "prob": 0.13273795823929024
+    },
+    {
+      "features": {
+        "buy_ratio": 0.6205077630117304,
+        "smart_wallets": 3.0,
+        "social_velocity": 0.7035606996572814,
+        "volume_turnover": 0.5925350242155553,
+        "log_holders": 1.8808135922807914,
+        "top10_pct": 20.5193769314792,
+        "log_liquidity": 4.5942820905464,
+        "age_minutes": 3.0,
+        "price_change_5m": -1.6965735808757376
+      },
+      "prob": 0.5996683204320821
+    },
+    {
+      "features": {
+        "buy_ratio": 0.4539727980298287,
+        "smart_wallets": 2.0,
+        "social_velocity": 0.42409588892163885,
+        "volume_turnover": 0.39193838423494826,
+        "log_holders": 1.7075701760979363,
+        "top10_pct": 30.64334574365057,
+        "log_liquidity": 4.707847039969643,
+        "age_minutes": 3.0,
+        "price_change_5m": 6.411722716075707
+      },
+      "prob": 0.3007622073751081
+    },
+    {
+      "features": {
+        "buy_ratio": 0.5785759856588661,
+        "smart_wallets": 2.0,
+        "social_velocity": 0.7621792335352666,
+        "volume_turnover": 0.460814360088821,
+        "log_holders": 2.303196057420489,
+        "top10_pct": 24.49835462635383,
+        "log_liquidity": 4.825645667246281,
+        "age_minutes": 34.0,
+        "price_change_5m": 8.938768951921073
+      },
+      "prob": 0.6142895387085014
+    },
+    {
+      "features": {
+        "buy_ratio": 0.5159380092408544,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.5117578436644816,
+        "volume_turnover": 0.439753798052234,
+        "log_holders": 2.367355921026019,
+        "top10_pct": 37.3921454383526,
+        "log_liquidity": 4.778638480866076,
+        "age_minutes": 43.0,
+        "price_change_5m": 5.808963326907102
+      },
+      "prob": 0.4311294685667951
+    },
+    {
+      "features": {
+        "buy_ratio": 0.5145722884611447,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.4636962092517152,
+        "volume_turnover": 0.19381046510020328,
+        "log_holders": 1.99563519459755,
+        "top10_pct": 20.001529515255243,
+        "log_liquidity": 4.43958865259928,
+        "age_minutes": 28.0,
+        "price_change_5m": -5.2934602832074855
+      },
+      "prob": 0.22854352843380404
+    },
+    {
+      "features": {
+        "buy_ratio": 0.4203249644952016,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.04291306007814802,
+        "volume_turnover": 0.2688904964153504,
+        "log_holders": 1.9030899869919435,
+        "top10_pct": 18.741009748075157,
+        "log_liquidity": 4.219952596723352,
+        "age_minutes": 8.0,
+        "price_change_5m": 3.576383292459351
+      },
+      "prob": 0.11592495500309631
+    },
+    {
+      "features": {
+        "buy_ratio": 0.6734931561417622,
+        "smart_wallets": 4.0,
+        "social_velocity": 0.6092747842686559,
+        "volume_turnover": 0.21527339532464407,
+        "log_holders": 2.6180480967120925,
+        "top10_pct": 43.24020318710245,
+        "log_liquidity": 4.939579974091131,
+        "age_minutes": 60.0,
+        "price_change_5m": 7.1885950151736155
+      },
+      "prob": 0.6895157849961469
+    },
+    {
+      "features": {
+        "buy_ratio": 0.34762535268763806,
+        "smart_wallets": 0.0,
+        "social_velocity": 0.3962294127566918,
+        "volume_turnover": 0.06330423159312398,
+        "log_holders": 2.1931245983544616,
+        "top10_pct": 26.063684617867693,
+        "log_liquidity": 4.225450431297619,
+        "age_minutes": 63.0,
+        "price_change_5m": -0.23050345470935207
+      },
+      "prob": 0.06168585846315653
+    },
+    {
+      "features": {
+        "buy_ratio": 0.63584398660954,
+        "smart_wallets": 1.0,
+        "social_velocity": 0.5737079063829668,
+        "volume_turnover": 0.40594731435372283,
+        "log_holders": 2.2121876044039577,
+        "top10_pct": 41.87953711138107,
+        "log_liquidity": 4.598593036408773,
+        "age_minutes": 43.0,
+        "price_change_5m": 1.0048211977359278
+      },
+      "prob": 0.4030403895595816
+    },
+    {
+      "features": {
+        "buy_ratio": 0.6134535221923274,
+        "smart_wallets": 1.0,
+        "social_velocity": 0.8546383145193716,
+        "volume_turnover": 0.2431821046433759,
+        "log_holders": 2.164352855784437,
+        "top10_pct": 20.37663206225261,
+        "log_liquidity": 4.814653380382768,
+        "age_minutes": 20.0,
+        "price_change_5m": -7.778478107586806
+      },
+      "prob": 0.6710589420196413
+    },
+    {
+      "features": {
+        "buy_ratio": 0.6010170977358482,
+        "smart_wallets": 1.0,
+        "social_velocity": 0.17524327994924116,
+        "volume_turnover": 0.20418040660346523,
+        "log_holders": 2.100370545117563,
+        "top10_pct": 38.949448561063036,
+        "log_liquidity": 4.327264960045736,
+        "age_minutes": 49.0,
+        "price_change_5m": -5.966984296608169
+      },
+      "prob": 0.16264657529773524
+    },
+    {
+      "features": {
+        "buy_ratio": 0.34131040262419765,
+        "smart_wallets": 1.0,
+        "social_velocity": 0.48065240224435024,
+        "volume_turnover": 0.25275066871007773,
+        "log_holders": 2.1522883443830563,
+        "top10_pct": 20.167069825110957,
+        "log_liquidity": 4.454817967531423,
+        "age_minutes": 43.0,
+        "price_change_5m": -2.9139750565488676
+      },
+      "prob": 0.17282448202615183
+    },
+    {
+      "features": {
+        "buy_ratio": 0.7649035585714785,
+        "smart_wallets": 4.0,
+        "social_velocity": 0.555316208036284,
+        "volume_turnover": 0.7571539038654024,
+        "log_holders": 2.859738566197147,
+        "top10_pct": 37.1345027689822,
+        "log_liquidity": 5.075934121752982,
+        "age_minutes": 97.0,
+        "price_change_5m": 7.002345786899666
+      },
+      "prob": 0.7975093168115646
+    }
+  ]
+}
