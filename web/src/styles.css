@@ -17,7 +17,7 @@ a:hover { text-decoration: underline; }
 .shell { display: grid; grid-template-columns: 190px 1fr; min-height: 100vh; }
 .side { position: sticky; top: 0; height: 100vh; padding: 18px 12px; border-right: 1px solid var(--line); background: #0d1010; display: flex; flex-direction: column; gap: 4px; }
 .brand { font-weight: 700; letter-spacing: .02em; font-size: 17px; padding: 4px 10px 14px; display: flex; align-items: center; gap: 8px; }
-.brand i { width: 15px; height: 15px; border-radius: 5px 2px 5px 2px; background: linear-gradient(135deg,#ffd27c,#e9782e); transform: rotate(-18deg); box-shadow: 5px -3px 0 -2px #f5b75f; }
+.brand-mark { width: 48px; height: 48px; border-radius: 14px; flex-shrink: 0; box-shadow: 0 0 0 1px rgba(255,255,255,.06), 0 12px 32px rgba(232,138,58,.18); }
 .brand-alpha { letter-spacing: -.035em; color: #f4f1eb; } .brand-alpha span { color: #e88a3a; }
 .analysis-output { background: var(--bg); border: 1px solid var(--line); border-radius: 9px; padding: 12px; line-height: 1.65; }
 .nav a { display: flex; gap: 10px; align-items: center; padding: 8px 10px; border-radius: 7px; color: var(--muted); }

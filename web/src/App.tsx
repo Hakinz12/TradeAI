@@ -92,7 +92,7 @@ function Shell() {
     <AppContext.Provider value={ctx}>
       <div className="shell">
         <aside className="side">
-          <div className="brand"><i /><span className="brand-alpha">alpha<span>.fun</span></span></div>
+          <div className="brand"><img src="/favicon.svg" alt="Alpha.fun" className="brand-mark" /><span className="brand-alpha">alpha<span>.fun</span></span></div>
           <nav className="nav">{NAV.map((n) => <a key={n.path} href={`#${n.path}`} className={section === n.path ? "on" : ""}>{ICONS[n.path]}{n.label}</a>)}</nav>
           <div style={{ marginTop: "auto" }} className="sub">
             {s && <>Tick {s.tick}<br />Model: {s.predictor}</>}

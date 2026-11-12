@@ -1,0 +1,35 @@
+<svg width="1100" height="420" viewBox="0 0 1100 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGrad" x1="120" y1="70" x2="380" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBE7BF"/>
+      <stop offset="0.24" stop-color="#F4C86B"/>
+      <stop offset="0.6" stop-color="#F19242"/>
+      <stop offset="1" stop-color="#D56327"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="560" y1="70" x2="990" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCE7AE"/>
+      <stop offset="0.45" stop-color="#F5A243"/>
+      <stop offset="1" stop-color="#D7682A"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#E28A39" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softGlow)">
+    <path d="M120 286L246 86C261 61 290 46 321 46C342 46 360 52.5 374.5 69C388.7 84.8 396 104.9 395 127.8C393.2 149.8 382.5 170.4 365.9 183.5L322 220L276 292C257.2 321.1 229 339 193.4 341.8C155.7 344.8 117.1 323.8 90.8 280.5L120 286Z" fill="url(#brandGrad)"/>
+  </g>
+
+  <path d="M222 110L293 95L331 149L295 171L252 117L222 110Z" fill="#FFF3C0" fill-opacity="0.28"/>
+
+  <path d="M173 287L239 168L275 218L235 287H173Z" fill="#F9CF7F" fill-opacity="0.22"/>
+
+  <g>
+    <path d="M358 94L386.5 176.8L468 182.2L404 235.3L425 319L358 274.8L291 319L312 235.3L248 182.2L329.5 176.8L358 94Z" fill="#F6D88A"/>
+  </g>
+
+  <g>
+    <text x="440" y="278" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="220" font-weight="700" letter-spacing="-18">alpha</text>
+    <text x="810" y="278" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="220" font-weight="700" letter-spacing="-18" fill="url(#wordGrad)">.fun</text>
+  </g>
+</svg>
